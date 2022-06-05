@@ -1,5 +1,3 @@
-# pokemonApp
-
 * A l'attention de l'équipe Enoki Studio, Jérémy, Théophile et Victoria *
 
 Tout d'abord merci pour ce test qui m'a permis de retourner dans l'unvivers des TCG :)
@@ -20,6 +18,7 @@ Ce que j'aurais aimé faire :
 
 -Qu'a la fin du timer la carte séléctionnée aille dans l'emplacement de carte 1. Mais ça, je n'ai pas encore réfléchis à comment le faire, sans doute une autre fonction dédiée aux cartes sur les cotés. 
 
+ps:(je n'ai pas eu la chance d'afficher pikachu car il n'y avait qu'un seul png dans l'api )
 
 
 Merci pour la lecture
