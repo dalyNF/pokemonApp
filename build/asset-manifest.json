@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.36687d3c.css",
+    "main.js": "/static/js/main.61dac9d1.js",
+    "static/js/787.c1112931.chunk.js": "/static/js/787.c1112931.chunk.js",
+    "static/media/fond-page.png": "/static/media/fond-page.75ea83b6271200a572e5.png",
+    "static/media/fond-carte.jpg": "/static/media/fond-carte.23e2cf2c8942b14a3b1a.jpg",
+    "index.html": "/index.html",
+    "main.36687d3c.css.map": "/static/css/main.36687d3c.css.map",
+    "main.61dac9d1.js.map": "/static/js/main.61dac9d1.js.map",
+    "787.c1112931.chunk.js.map": "/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36687d3c.css",
+    "static/js/main.61dac9d1.js"
+  ]
+}

@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+/* *
+VARIABLES
+* */
+:root{
+  --borderclr-0:#fbff1b;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+/* 
+GLOBAL 
+*/
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+#root{
+  /* background-image: url("../public/img/fond-page.png"); */
+  background: linear-gradient(#06020250, #10101778),url("../public/img/fond-page.png");
+  background-repeat: no-repeat;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+/* 
+LEFTSECTION 
+*/
+/* 
+RIGHTSECTION
+*/
+/* 
+CENTERSECTION
+*/
+.mainCard {
+  height: auto;
+  width: 450px;
+  border: solid var(--borderclr-0);
+  border-radius: 7%;
+  margin:5%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#e0ed9478 ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cardName {
+  display: flex;
+  align-items: center;
+  padding:5%;
+}
+.cardName div {
+  margin-left: 150%;
+}
+.cardImg {
+  height:180px;
+  width: 100%;
+  background: linear-gradient(#06020213, #9797b148),url("../public/img/fond-carte.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cardImg img {
+  position: relative;
+  left: 8%;
+  bottom: 95px;
+  height: 350px;
+  width: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.skill1 ,
+.skill2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+  margin:0;
+}
+
+.skill1 div , 
+.skill2 div {
+  margin-left: 30%;
+}
+
+/* 
+BTNSECTION 
+*/
+.btnSection{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10%;
 }
-
-.App-link {
-  color: #61dafb;
+.launchBtn {
+  padding:5%;
+  margin: 5%;
+  font-size: larger;
+  font-weight: 800;
+  background-color: var(--borderclr-0);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stopBtn {
+  margin: 5%;
+  padding:5%;
+  font-size: larger;
+  font-weight: 800;
+  background-color: rgb(228, 96, 96);
 }
